@@ -15,11 +15,11 @@
 
 ## Creating your first workflow
 
-1.- Create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
+    1.- Create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
 
-2.- In the .github/workflows directory, create a file named github-actions-demo.yml.
+    2.- In the .github/workflows directory, create a file named github-actions-demo.yml.
 
-3.- Copy the following YAML contents into the github-actions-demo.yml file:
+    3.- Copy the following YAML contents into the github-actions-demo.yml file:
 ```yaml
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
@@ -44,7 +44,7 @@ jobs:
 4.- Scroll to the bottom of the page and select Create a new branch for this commit and start a pull request. Then, to create a pull request, click Propose new file.
 
 
-Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
+    Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
 
 # Viewing your workflow results
 
@@ -63,6 +63,7 @@ Committing the workflow file to a branch in your repository triggers the push ev
 
     For example, you can see the list of files in your repository:
 
-The example workflow you just added is triggered each time code is pushed to the branch, 
-and shows you how GitHub Actions can work with the contents of your repository. 
+    The example workflow you just added is triggered each time code is pushed to the branch, 
+    and shows you how GitHub Actions can work with the contents of your repository. 
+
 For an in-depth tutorial, see ["Understanding GitHub Actions."](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
