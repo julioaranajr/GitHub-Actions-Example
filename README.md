@@ -45,7 +45,7 @@ jobs:
 
 ![Screenshot](https://github.com/julioaranajr/GitHub-Actions-Example/blob/main/commit-new-file.png)
 
-    Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
+Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
 
 # Viewing your workflow results
 
