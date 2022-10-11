@@ -1,5 +1,5 @@
 # GitHub-Actions-Example
-# Quickstart for GitHub Actions
+## Quickstart for GitHub Actions
 Try out the features of GitHub Actions in 5 minutes or less.
 
 ## Introduction
@@ -13,11 +13,11 @@ where they run, and how they can interact with the code in your repository.
 
 ## Creating your first workflow
 
-- 1.- Create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
+1.- Create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
 
-- 2.- In the .github/workflows directory, create a file named github-actions-demo.yml.
+2.- In the .github/workflows directory, create a file named github-actions-demo.yml.
 
-- 3.- Copy the following YAML contents into the github-actions-demo.yml file:
+3.- Copy the following YAML contents into the github-actions-demo.yml file:
 ```yaml
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
@@ -39,8 +39,28 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```
 
-- 4.- Scroll to the bottom of the page and select Create a new branch for this commit and start a pull request. Then, to create a pull request, click Propose new file.
+4.- Scroll to the bottom of the page and select Create a new branch for this commit and start a pull request. Then, to create a pull request, click Propose new file.
 
 
 Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
 
+# Viewing your workflow results
+
+1.- On GitHub.com, navigate to the main page of the repository.
+
+2.- Under your repository name, click Actions.
+
+3.- In the left sidebar, click the workflow you want to see.
+
+4.- From the list of workflow runs, click the name of the run you want to see.
+
+5.- Under Jobs , click the Explore-GitHub-Actions job.
+
+6.- The log shows you how each of the steps was processed. 
+    Expand any of the steps to view its details.
+
+    For example, you can see the list of files in your repository:
+
+The example workflow you just added is triggered each time code is pushed to the branch, 
+and shows you how GitHub Actions can work with the contents of your repository. 
+For an in-depth tutorial, see ["Understanding GitHub Actions."](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
