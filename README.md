@@ -43,7 +43,7 @@ jobs:
 
 4.- Scroll to the bottom of the page and select Create a new branch for this commit and start a pull request. Then, to create a pull request, click Propose new file.
 
-(https://github.com/julioaranajr/GitHub-Actions-Example/blob/main/commit-new-file.png)
+![Screenshot](https://github.com/julioaranajr/GitHub-Actions-Example/blob/main/commit-new-file.png)
 
     Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
 
